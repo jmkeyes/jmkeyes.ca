@@ -1,0 +1,27 @@
+# hugo.toml
+
+baseurl = "https://jmkeyes.ca/"
+theme = "black-and-light"
+
+title = "J. M. Keyes"
+author = "Joshua M. Keyes"
+
+canonifyurls = true
+languagecode = "en"
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "J. M. Keyes"
+  disableWebFonts = false
+
+[[menu.main]]
+  name = "About"
+  url  = "https://jmkeyes.ca/#about"
+[[menu.main]]
+  name = "Projects"
+  url  = "https://github.com/jmkeyes/"
+[[menu.main]]
+  name = "Contact"
+  url  = "https://jmkeyes.ca/#contact"
