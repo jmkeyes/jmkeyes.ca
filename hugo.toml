@@ -16,6 +16,10 @@ pygmentscodefences  = true
   sitename = "J. M. Keyes"
   disableWebFonts = false
 
+[services]
+  [services.googleAnalytics]
+    id = 'G-BWYQ858RMF'
+
 [[menu.main]]
   name = "About"
   url  = "https://jmkeyes.ca/#about"
